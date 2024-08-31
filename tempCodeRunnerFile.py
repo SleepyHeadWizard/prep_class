@@ -1,4 +1,6 @@
-brand_exp = int(input("Enter the total expenses for the brand: "))
-travel_exp = int(input("Enter the total expenses for travel: "))
-food_exp = int(input("Enter the total expenses for food: "))
-logistics_exp = int(input("Enter the total expenses for logistics: "))
+n = int(input())
+
+for i in range(n):
+    print('*' * (i+1))
+for i in range(n-1):
+    print('*' * (n-i-1))
